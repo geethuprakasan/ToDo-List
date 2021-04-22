@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# To Do List with Drag and Drop
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Live Demo
+https://todo-list-dnd.netlify.app/
+
+## To Run locally
 
 In the project directory, you can run:
 
