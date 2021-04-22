@@ -1,0 +1,11 @@
+.card {
+  background: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  height: 150px;
+}
+.card-name {
+  font-weight: 600;
+  font-size: 16px;
+}

@@ -1,0 +1,30 @@
+.home-page {
+  /* margin-left: 300px; */
+  padding: 10px;
+}
+.homepage-header {
+  width: 100%;
+  background: #f2f2f2;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header-btn {
+  background: #3fcc3f;
+  border-radius: 3px;
+  border: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background: #27ae60;
+  color: #ffffff;
+  padding: 4px 10px;
+  width: 83px;
+  height: 28px;
+}
+.homepage-content {
+  display: flex;
+  padding-top: 20px;
+}

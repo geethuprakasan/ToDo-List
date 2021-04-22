@@ -1,0 +1,48 @@
+.task-column {
+  flex: 1;
+  margin: 0 10px;
+  background: #e8f0f1;
+  background: #f8f8f9;
+  border: 1px solid #e4e4e4;
+  border-radius: 0px 0px 6px 6px;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.header-todo {
+  background: #f2c94c;
+  border-radius: 6px 6px 0px 0px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #333333;
+  /* width: 346px;
+  height: 35px; */
+}
+.header-inprogress {
+  background: #27ae60;
+  border-radius: 6px 6px 0px 0px;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.header-done {
+  background: #2f80ed;
+  border-radius: 6px 6px 0px 0px;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.taskcolumn-body {
+  padding: 10px;
+}
