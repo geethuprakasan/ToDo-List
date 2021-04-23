@@ -83,8 +83,33 @@
   line-height: 24px;
   color: #ffffff;
   border: none;
+  margin-top: 20px;
 }
 .login-btn:hover {
   cursor: pointer;
   outline: none;
+}
+
+/* Mobile Screen overrides */
+
+@media only screen and (max-width: 600px) {
+  .loginpage-wrapper {
+    flex-direction: column;
+  }
+  .login-home {
+    width: 100%;
+  }
+  .login-container {
+    width: 100%;
+    padding: 25px;
+  }
+  .todo-loginpage {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  .login-details > .email,
+  .login-details > .password,
+  .login-details .login-btn {
+    width: 100% !important;
+  }
 }

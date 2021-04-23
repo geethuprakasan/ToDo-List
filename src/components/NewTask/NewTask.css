@@ -1,19 +1,6 @@
-.create-task-navbar {
-  height: 90px;
-  padding-right: 30px;
-  display: flex;
-  align-items: center;
-  padding-left: 100px;
-  font-style: normal;
-  font-weight: 600px;
-  font-size: 21px;
-  line-height: 32px;
-  color: #000000;
-  border-bottom: 1px solid #bdbdbd;
-}
 .create-task-wrapper {
   padding-left: 100px;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 .create-task-name,
 .description,

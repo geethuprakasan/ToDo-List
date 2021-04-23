@@ -1,7 +1,3 @@
-.home-page {
-  /* margin-left: 300px; */
-  padding: 10px;
-}
 .homepage-header {
   width: 100%;
   background: #f2f2f2;
@@ -27,4 +23,14 @@
 .homepage-content {
   display: flex;
   padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage-header {
+    display: none;
+  }
+  .homepage-content {
+    flex-direction: column;
+    padding: 15px;
+  }
 }

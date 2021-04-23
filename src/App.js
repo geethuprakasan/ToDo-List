@@ -10,10 +10,12 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   const auth = useSelector((state) => state.auth);
   const dispatch = useDispatch();
+
   useEffect(() => {
     const userInfo = JSON.parse(localStorage.getItem("login-info"));
     if (userInfo) {
@@ -38,19 +40,18 @@ function App() {
       <div>
         <Router>
           {auth.login && <SideBar />}
-          <div style={{ marginLeft: auth.login ? "300px" : "0px" }}>
+          <div className={auth.login ? "ml-300" : ""}>
             {auth.login ? (
               <Switch>
                 <Route exact path="/">
                   <HomePage />
                 </Route>
-                <Route exact path="/login">
-                  <LoginPage />
-                </Route>
                 <Route exact path="/analytics">
+                  <Navbar pageName="Analytics" />
                   <AnalyticsPage />
                 </Route>
                 <Route exact path="/newtask">
+                  <Navbar pageName="Create Task" />
                   <CreateTaskPage />
                 </Route>
               </Switch>

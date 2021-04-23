@@ -8,3 +8,6 @@ body {
 button {
   cursor: pointer;
 }
+.ml-300 {
+  margin-left: 300px;
+}

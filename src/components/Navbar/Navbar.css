@@ -1,0 +1,13 @@
+.top-nav {
+  height: 90px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 45px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  border-bottom: 1px solid #bdbdbd;
+}
