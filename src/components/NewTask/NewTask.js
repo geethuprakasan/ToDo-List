@@ -47,7 +47,6 @@ export default function NewTask() {
     <div>
       <form id="newTaskForm" onSubmit={handleSubmit}>
         <div>
-          <div className="create-task-navbar">Create task</div>
           <div className="create-task-wrapper">
             {tempError && (
               <div style={{ color: "red" }}>Please fill in all the fields</div>
